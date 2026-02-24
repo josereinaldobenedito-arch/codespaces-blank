@@ -28,7 +28,7 @@ int main () {
   scanf  ("%d", &opcao");
 
   switch (opcao)
-{
+
   case 1:
 
   if(c1_população > c2_população){
