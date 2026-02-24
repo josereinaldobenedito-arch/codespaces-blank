@@ -21,6 +21,7 @@ int main() {
         break;
         case 3:
         printf("Digite o valor a ser sacado:\n");
+        break;
         default:
         printf("Opção inválida!\n");
 
