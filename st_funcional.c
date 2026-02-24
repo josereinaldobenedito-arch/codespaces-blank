@@ -1,4 +1,6 @@
 #include <studio.h>
+#include <stdlib.h>
+
 
 int main () {
 
@@ -28,28 +30,47 @@ int main () {
   switch (opcao)
 {
   case 1:
+
   if(c1_população > c2_população){
         printf("carta 1 contém mais população! \n");
     } else if
         printf("carta 2 contém mais população! \n");
     } else {
-         printf ("empate\\n");
+         printf ("Empate\\n");
     }
+    break;
 
+   case 2:
+ 
     if(c1_area > c2_area){
         printf("Carta 1 contém a maior Área! \n");
-    } else {
+    } else if {
         printf("Carta 2 contém a maior Área! \n");
+    } else {
+        printf ("Empate\n");
     }
+    break;
+    
+    case 3:
 
     if(c1_pib > c2_pib){
         printf("Carta 1 possui o maior P.I.B.! \n");
-    } else {
+    } else if {
         printf("Carta 2 possui o maior P.I.B.! \n");
+    } else {
+        printf ("Empate\n");
     }
+     break;
+    
+     case 3:
 
     if(c1_pt > c2_pt){
         printf("Carta 1 tem mais Pontos Turísticos! \n");
-    } else {
+    } else if {
         printf("Carta 2 tem mais Pontos Turísticos! \n");
+    } else {
+        printf ("Empate\n");
+
+    return 0: 
+
     }
